@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "io.gitlab.scriptkid.ezcheatclient.fakecheats.FakeInvisibility.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "server": [],
+  "client": [
+    "FakeInvisibility_PlayerEntityRendererMixin",
+    "FakeInvisibility_LivingEntityRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

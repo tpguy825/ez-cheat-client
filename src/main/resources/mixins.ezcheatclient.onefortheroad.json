@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "io.gitlab.scriptkid.ezcheatclient.punishments.OneForTheRoad.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "server": [],
+  "client": [
+    "OneForTheRoad_ClientPlayerInteractionManagerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

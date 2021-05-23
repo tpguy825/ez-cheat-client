@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "io.gitlab.scriptkid.ezcheatclient.punishments.ForceConnect.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "server": [],
+  "client": [
+    "ForceConnect_ConnectScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

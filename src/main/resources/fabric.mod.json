@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "ezcheatclient",
+  "version": "${version}",
+  "name": "EzCheatClient",
+  "description": "Very nice cheats",
+  "authors": [
+    "ScriptKid"
+  ],
+  "contact": {
+    "website": "https://scriptkid.gitlab.io/minecraft-fake-cheat-public/",
+    "repo": "https://gitlab.com/scriptkid/minecraft-fake-cheat-public"
+  },
+  "license": "MIT",
+  "icon": "assets/ezcheatclient/favicon_logo.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "io.gitlab.scriptkid.ezcheatclient.client.FakeCheatClient"
+    ],
+    "main": [
+      "io.gitlab.scriptkid.ezcheatclient.FakeCheat"
+    ]
+  },
+  "mixins": [
+    "mixins.ezcheatclient.arrowrain.json",
+    "mixins.ezcheatclient.canyouevenbridgebro.json",
+    "mixins.ezcheatclient.doyouevenaimbro.json",
+    "mixins.ezcheatclient.doyouevenfloatbro.json",
+    "mixins.ezcheatclient.fakediamondgear.json",
+    "mixins.ezcheatclient.fakeinvisibility.json",
+    "mixins.ezcheatclient.fakeinvulnerability.json",
+    "mixins.ezcheatclient.forceconnect.json",
+    "mixins.ezcheatclient.onefortheroad.json",
+    "mixins.ezcheatclient.rocketman.json",
+    "mixins.ezcheatclient.silentcreeper.json",
+    "mixins.ezcheatclient.treasurehunter.json",
+    "mixins.ezcheatclient.waterlava.json",
+    "mixins.ezcheatclient.whereisthediamond.json",
+    "mixins.ezcheatclient.other.json",
+    "mixins.ezcheatclient.misc.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.16.4"
+  }
+}

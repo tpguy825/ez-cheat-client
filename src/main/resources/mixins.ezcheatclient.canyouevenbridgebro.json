@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "io.gitlab.scriptkid.ezcheatclient.punishments.CanYouEvenBridgeBro.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "server": [],
+  "client": [
+    "CanYouEvenBridgeBro_PlayerEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "io.gitlab.scriptkid.ezcheatclient.punishments.RocketMan.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "server": [],
+  "client": [
+    "RocketMan_PlayerEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

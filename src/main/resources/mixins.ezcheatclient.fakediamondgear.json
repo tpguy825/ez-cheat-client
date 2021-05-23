@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "io.gitlab.scriptkid.ezcheatclient.fakecheats.FakeDiamondGear.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "server": [],
+  "client": [
+    "FakeDiamondGear_SpriteIdentifierMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

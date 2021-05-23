@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "io.gitlab.scriptkid.ezcheatclient.punishments.WhereIsTheDiamond.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "server": [],
+  "client": [
+    "WhereIsTheDiamond_SpriteIdentifierMixin",
+    "WhereIsTheDiamond_MinecraftClientMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

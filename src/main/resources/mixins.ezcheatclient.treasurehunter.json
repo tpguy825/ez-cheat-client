@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "io.gitlab.scriptkid.ezcheatclient.punishments.TreasureHunter.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "server": [],
+  "client": [
+    "TreasureHunter_ClientPlayNetworkHandlerMixin",
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

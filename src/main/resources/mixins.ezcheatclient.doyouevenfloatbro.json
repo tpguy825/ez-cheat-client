@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "io.gitlab.scriptkid.ezcheatclient.punishments.DoYouEvenFloatBro.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "server": [],
+  "client": [
+    "DoYouEvenFloatBro_EntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

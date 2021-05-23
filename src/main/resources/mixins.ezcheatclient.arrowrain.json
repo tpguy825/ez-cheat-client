@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "io.gitlab.scriptkid.ezcheatclient.punishments.ArrowRain.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "server": [],
+  "client": [
+    "ArrowRain_InteractionManagerMixin",
+    "ArrowRain_MinecraftClientMixin",
+    "ArrowRain_KeyboardInputMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

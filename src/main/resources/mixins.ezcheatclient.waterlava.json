@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "package": "io.gitlab.scriptkid.ezcheatclient.punishments.WaterLava.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "server": [],
+  "client": [
+    "WaterLava_EntityRenderDispatcherMixin",
+    "WaterLava_FluidRendererMixin",
+    "WaterLava_InGameOverlayRendererMixin",
+    "WaterLava_GameRendererMixin",
+    "WaterLava_LavaFluidMixin",
+    "WaterLava_AbstractBlockMixin",
+    "WaterLava_EntityMixin",
+    "WaterLava_LivingEntityMixin",
+    "WaterLava_ClientPlayNetworkHandlerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

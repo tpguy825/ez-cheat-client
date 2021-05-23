@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "io.gitlab.scriptkid.ezcheatclient.misc.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "server": [],
+  "client": [
+    "ScreenMixin",
+    "KeyboardMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

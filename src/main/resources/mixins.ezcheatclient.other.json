@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "io.gitlab.scriptkid.ezcheatclient.punishments.Other.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "server": [],
+  "client": [
+    "Other_ClientPlayerInteractionManagerMixin",
+    "Other_EnderDragonEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
